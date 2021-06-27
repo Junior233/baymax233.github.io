@@ -24,6 +24,6 @@ if "%comment%"=="" (
     git commit -m "[%date% %time%] %comment%"
     echo "自定义代码变更说明为%comment%"
 )
-git push -f
+git push
 pause
 
