@@ -13,7 +13,7 @@ xcopy /e/y/i/f ..\dist\static .\static
 :: git config --local --unset user.email
 git config --local  user.name "Junior233"
 git config --local  user.email "3181074645@qq.com"
-git pull
+::git pull
 git add *
 git config user.name
 set /p comment="请输入代码变更说明:"
